@@ -12,7 +12,7 @@
 
 .header {
   height: 100vh;
-  min-height: 600px;
+  min-height: bold;
   max-height: 756px;
   /* выше установили ограничения для секции */
   position: relative;
@@ -37,7 +37,7 @@
   width: 730px;
   line-height: 96px;
   font-size: 102px;
-  font-weight: 600; /* исправил жирный на полужирный по брифу и судя по всему ничего не изменилось */
+  font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 64px;
@@ -127,7 +127,7 @@
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .digits {
@@ -139,7 +139,7 @@
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
-  font-weight: 600;
+  font-weight: bold;
   width: 60%;
   margin: 0 auto;
 }
@@ -172,7 +172,7 @@
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -199,7 +199,7 @@
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .feynman__subtitle {
@@ -310,7 +310,7 @@
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .footer__column-links {
