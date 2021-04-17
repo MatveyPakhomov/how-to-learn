@@ -25,7 +25,7 @@
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 /*стили блока .techniques*/
 @import url(../blocks/techniques/techniques.css);
-@import url(../blocks/techniques/__section/techniques__section_margins.css);
+@import url(../blocks/techniques/_section/techniques_section_margins.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__image/cards__image.css);
@@ -52,7 +52,7 @@
 @import url(../blocks/table/__text/table__text.css);
 /*стили блока .khan*/
 @import url(../blocks/khan/khan.css);
-@import url(../blocks/khan/__section/khan__section_margins.css);
+@import url(../blocks/khan/_section/khan_section_margins.css);
 @import url(../blocks/khan/__container/khan__container.css);
 @import url(../blocks/khan/__author/khan__author.css);
 @import url(../blocks/khan/__title/khan__title.css);
@@ -72,11 +72,11 @@
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 /*стили блока .resources*/
 @import url(../blocks/resources/resources.css);
-@import url(../blocks/resources/__section/resources__section_margins.css);
+@import url(../blocks/resources/_section/resources_section_margins.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
-@import url(../blocks/resources/__logo/_link/resources__logo_link.css);
-@import url(../blocks/resources/__logo/_image/resources__logo_image.css);
+@import url(../blocks/logo/_image/logo_image.css);
+@import url(../blocks/logo/_link/logo_link.css);
 /*cтили блока .footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);

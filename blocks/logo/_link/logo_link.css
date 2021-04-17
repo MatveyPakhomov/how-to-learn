@@ -1,8 +1,8 @@
-.resources__logo_link {
+.logo_link {
   display: block;
 }
 
-.resources__logo_link:hover {
+.logo_link:hover {
   opacity: .7;
   transition: opacity .2s ease-out;
 }
