@@ -9,13 +9,13 @@
 <body>
   <div class="page">
     <div class="header">
-      <img src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум" class="logo logo_place_header">
+      <img src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум" class="logo_place_header">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" class="header__link">Узнать &#8594;</a>
+        <a href="#" class="header__link">Узнать &rarr;</a>
       </p>
       <img src="./images/header-image.png" alt="Картина Опять двойка" class="header__main-illustration">
-      <div class="header__square-pic page__rotation"></div>
+      <div class="header__square-pic rotation"></div>
     </div>
     <main class="content">
       <div class="content__description">
@@ -28,32 +28,32 @@
           </div>
         </article>
       </div>
-      <section class="techniques techniques_section_margins">
+      <section class="techniques page__techniques">
         <h2 class="section-title">Техники обучения</h2>
-        <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <div class="cards">
           <div class="cards__item">
-            <img src="./images_sprint-2/cards-attention.png" alt="условное изображение" class="cards__image">
+            <img src="./images_sprint-2/cards-attention.jpg" alt="условное изображение" class="cards__image">
             <h4 class="cards__title">Два вида внимания</h4>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
           </div>
           <div class="cards__item">
-            <img src="./images_sprint-2/cards-recall.png" alt="условное изображение" class="cards__image">
+            <img src="./images_sprint-2/cards-recall.jpg" alt="условное изображение" class="cards__image">
             <h4 class="cards__title">Recall</h4>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </div>
           <div class="cards__item">
-            <img src="./images_sprint-2/cards-interliving.png" alt="условное изображение" class="cards__image">
+            <img src="./images_sprint-2/cards-interliving.jpg" alt="условное изображение" class="cards__image">
             <h4 class="cards__title">Интерливинг</h4>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
           <div class="cards__item">
-            <img src="./images_sprint-2/cards-question.png" alt="условное изображение" class="cards__image">
+            <img src="./images_sprint-2/cards-question.jpg" alt="условное изображение" class="cards__image">
             <h4 class="cards__title">Вопросы</h4>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </div>
           <div class="cards__item">
-            <img src="./images_sprint-2/cards-competence.png" alt="условное изображение" class="cards__image">
+            <img src="./images_sprint-2/cards-competence.jpg" alt="условное изображение" class="cards__image">
             <h4 class="cards__title">Иллюзия компетентности</h4>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </div>
@@ -63,8 +63,10 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Здравствуйте, ваш браузер не может показать классную штуку, потому что не поддерживает iframe.</iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>И эту тоже.</iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen>
+            <p class="section-subtitle">Здравствуйте, ваш браузер не может показать классную штуку, потому что не поддерживает iframe.</p>
+          </iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
         </div>
       </section>
       <section class="oakley">
@@ -78,10 +80,10 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href="#" class="feynman__link">Подробнее &#8594;</a>
+        <a href="#" class="feynman__link">Подробнее &rarr;</a>
       </section>
       <section class="digits">
-        <h2 class="section-title digits__section-title">Цифры и факты</h2>
+        <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
           <li class="table__cell">
@@ -120,7 +122,7 @@
           </li>
         </ul>
       </section>
-      <section class="khan khan_section_margins">
+      <section class="khan page__khan">
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
@@ -129,7 +131,7 @@
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images_sprint-2/khan-book.jpg" alt="Книга Салмана Хана - Весь мир школа">
-            <a class="khan__buy-link" href="#">Купить книгу &#8594;</a>
+            <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -178,9 +180,9 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle page__rotation"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
-      <section class="resources resources_section_margins">
+      <section class="resources page__resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <ul class="resources__logo-zone">
@@ -194,7 +196,7 @@
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img src="./images/logo_place_footer.svg" alt="Логотип Яндекс Практикум" class="logo logo_place_footer">
+          <img src="./images/logo_place_footer.svg" alt="Логотип Яндекс Практикум" class="logo_place_footer">
           <p class="footer__author">&copy; 2021 Матвей Пахомов</p>
         </div>
         <nav class="footer__column footer__column_content_info">
