@@ -8,4 +8,4 @@
 6. @Keyframes
 7. @Import
 ### А также с использованием ссылок и таблиц.
-### Проект на GitHub - https://matveypakhomov.github.io/how-to-learn/
+### Проект на GitHub - https://matveypakhomov.github.io/how-to-learn/index.html
